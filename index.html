@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
     <script src="https://kit.fontawesome.com/30410f2966.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
@@ -37,20 +37,6 @@
                 <a class="nav-link" href="#"><i class="fa-solid fa-bell"></i></a>
             </li>
 
-            <!-- This menu is hidden in bigger devices with d-sm-none. 
-           The sidebar isn't proper for smaller screens imo, so this dropdown menu can keep all the useful sidebar itens exclusively for smaller screens  -->
-            <li class="nav-item dropdown d-sm-block d-md-none">
-                <a class="nav-link dropdown-toggle" href="#" id="smallerscreenmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Menu
-                </a>
-                <div class="dropdown-menu" aria-labelledby="smallerscreenmenu">
-                    <a class="dropdown-item" href="#">Dashboard</a>
-                    <a class="dropdown-item" href="#">Profile</a>
-                    <a class="dropdown-item" href="#">Tasks</a>
-                    <a class="dropdown-item" href="#">Etc ...</a>
-                </div>
-            </li>
-            <!-- Smaller devices menu END -->
 
         </ul>
     </div>
@@ -61,32 +47,26 @@
 <!-- Bootstrap row -->
 <div class="row" id="body-row">
     <!-- Sidebar -->
-    <div id="sidebar-container" class="sidebar-expanded d-none d-md-block col-2">
-        <!-- d-* hiddens the Sidebar in smaller devices. Its itens can be kept on the Navbar 'Menu' -->
+    <div id="sidebar-container" class="sidebar-expanded  d-md-block col-2">
         <!-- Bootstrap List Group -->
         <ul class="list-group sticky-top sticky-offset">
-            <!-- Separator with title -->
-            <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
-                <small>MAIN MENU</small>
-            </li>
-            <!-- /END Separator -->
             <!-- Menu with submenu -->
             <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-start align-items-center">
+                <div class="d-flex w-100 justify-content-center align-items-center">
                     <span class="fa-solid fa-house mr-3"></span>
                     <span class="menu-collapsed">Home</span>
                     <span class="submenu-icon ml-auto"></span>
                 </div>
             </a>
             <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class=" list-group-item list-group-item-action flex-column align-items-start">
-                <div class="d-flex w-100 justify-content-start align-items-center">
+                <div class="d-flex w-100 justify-content-center align-items-center">
                     <span class="fa-solid fa-chart-simple mr-3"></span>
                     <span class="menu-collapsed">Stats</span>
                     <span class="submenu-icon ml-auto"></span>
                 </div>
             </a>
             <a href="#" class=" list-group-item list-group-item-action">
-                <div class="d-flex w-100 justify-content-start align-items-center">
+                <div class="d-flex w-100 justify-content-center align-items-center">
                     <span class="fa-solid fa-signal mr-3"></span>
                     <span class="menu-collapsed">Signals</span>
                 </div>
@@ -94,7 +74,7 @@
             
         <!-- admin -->
         <a href="#" class=" list-group-item list-group-item-action">
-            <div class="d-flex w-100 justify-content-start align-items-center">
+            <div class="d-flex w-100 justify-content-center align-items-center">
                 <span class="fa-solid fa-futbol mr-3"></span>
                 <span class="menu-collapsed">Admin</span>
             </div>
@@ -155,7 +135,7 @@
             </div>
         </div>
 
-        
+        </nav>
 
     </div>
     <!-- Main Col END -->
