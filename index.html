@@ -58,9 +58,9 @@
     <!-- Bootstrap row -->
     <div class="row" id="body-row">
         <!-- Sidebar -->
-        <div id="sidebar-container" class="sidebar-expanded  d-md-block col-2">
+        <div id="sidebar-container" class="sidebar-expanded  d-md-block col-1">
             <!-- Bootstrap List Group -->
-            <ul class="list-group sticky-top sticky-offset">
+            <ul class="list-group sticky-top sticky-offset d-flex flex-column">
                 <!-- Menu with submenu -->
                 <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="list-group-item list-group-item-action flex-column align-items-start">
                     <div class="d-flex w-100 justify-content-center align-items-center">
@@ -82,14 +82,12 @@
                         <span class="menu-collapsed">Signals</span>
                     </div>
                 </a>
-                
-            <!-- admin -->
-            <a href="#" class=" list-group-item list-group-item-action">
-                <div class="d-flex w-100 justify-content-center align-items-center">
-                    <span class="fa-solid fa-futbol mr-3"></span>
-                    <span class="menu-collapsed">Admin</span>
-                </div>
-            </a>
+                <a id="admin"href="#" class=" list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-center align-items-center">
+                        <span class="fa-solid fa-futbol mr-3"></span>
+                        <span class="menu-collapsed">Admin</span>
+                    </div>
+                </a>
             </ul>
             <!-- List Group END-->
         </div>
