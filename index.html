@@ -58,37 +58,38 @@
     <!-- Bootstrap row -->
     <div class="row" id="body-row">
         <!-- Sidebar -->
-        <div id="sidebar-container" class="sidebar-expanded  d-md-block col-1">
+        <div id="sidebar-container" class="sidebar-expanded d-flex d-md-block col-1">
             <!-- Bootstrap List Group -->
             <ul class="list-group sticky-top sticky-offset d-flex flex-column">
                 <!-- Menu with submenu -->
-                <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="list-group-item list-group-item-action flex-column align-items-start">
+                <li href="#submenu1" data-toggle="collapse" aria-expanded="false" class="list-group-item list-group-item-action flex-column align-items-start">
                     <div class="d-flex w-100 justify-content-center align-items-center">
                         <span class="fa-solid fa-house mr-3"></span>
                         <span class="menu-collapsed">Home</span>
                         <span class="submenu-icon ml-auto"></span>
                     </div>
-                </a>
-                <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class=" list-group-item list-group-item-action flex-column align-items-start">
+                </li>
+                <li href="#submenu2" data-toggle="collapse" aria-expanded="false" class=" list-group-item list-group-item-action flex-column align-items-start">
                     <div class="d-flex w-100 justify-content-center align-items-center">
                         <span class="fa-solid fa-chart-simple mr-3"></span>
-                        <span class="menu-collapsed">Stats</span>
+                        <span class="menu-collapsed ">Stats</span>
                         <span class="submenu-icon ml-auto"></span>
                     </div>
-                </a>
-                <a href="#" class=" list-group-item list-group-item-action">
+                </li>
+                <li href="#" class=" list-group-item list-group-item-action">
                     <div class="d-flex w-100 justify-content-center align-items-center">
                         <span class="fa-solid fa-signal mr-3"></span>
                         <span class="menu-collapsed">Signals</span>
                     </div>
-                </a>
-                <a id="admin"href="#" class=" list-group-item list-group-item-action">
-                    <div class="d-flex w-100 justify-content-center align-items-center">
-                        <span class="fa-solid fa-futbol mr-3"></span>
-                        <span class="menu-collapsed">Admin</span>
-                    </div>
-                </a>
+                </li>
             </ul>
+
+            <a id="admin"href="#" class=" list-group-item align-content-end list-group-item-action">
+                <div class="d-flex w-100 justify-content-center align-items-center">
+                    <span class="fa-solid fa-futbol mr-3"></span>
+                    <span class="menu-collapsed">Admin</span>
+                </div>
+            </a>
             <!-- List Group END-->
         </div>
         <!-- sidebar-container END -->
