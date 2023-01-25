@@ -73,13 +73,7 @@ body {
 
 
 
-main{
-        height: calc(100vh - 60px);
-        position: fixed;
-        bottom: 0;
-        width: 100%;
 
-}
 
 
 .search_bar {
@@ -91,9 +85,6 @@ main{
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-        .navbar-nav li a {
-                display: none;
-        }
 }
 
 /* // Medium devices (tablets, 768px and up) */

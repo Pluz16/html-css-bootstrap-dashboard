@@ -18,12 +18,12 @@
     <button class="navbar-toggler navbar-toggler-right d-block d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <img style="width: 36px;" src="img/mobile-logo.png" alt="">
     </button>
-    <a class="navbar-brand d-none d-md-block" href="#">
+    <a class="navbar-brand d-none d-lg-block" href="#">
         <img src="img/logo.svg" alt="Logo">
     </a>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <form class="d-flex" role="search" style="flex-grow: 1;">
-            <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+            <input class="form-control me-2 fa-brands" type="search" placeholder="" aria-label="Search" >
           </form>
         <ul class="navbar-nav">
             <li class="nav-item d-none d-md-block">
@@ -54,6 +54,113 @@
 </nav>
 <!-- NavBar END -->
 
+<main style="height: calc(100vh - 60px); position: fixed; bottom: 0; width: 100%;">
+    <!-- Bootstrap row -->
+    <div class="row" id="body-row">
+        <!-- Sidebar -->
+        <div id="sidebar-container" class="sidebar-expanded  d-md-block col-2">
+            <!-- Bootstrap List Group -->
+            <ul class="list-group sticky-top sticky-offset">
+                <!-- Menu with submenu -->
+                <a href="#submenu1" data-toggle="collapse" aria-expanded="false" class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-center align-items-center">
+                        <span class="fa-solid fa-house mr-3"></span>
+                        <span class="menu-collapsed">Home</span>
+                        <span class="submenu-icon ml-auto"></span>
+                    </div>
+                </a>
+                <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class=" list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-center align-items-center">
+                        <span class="fa-solid fa-chart-simple mr-3"></span>
+                        <span class="menu-collapsed">Stats</span>
+                        <span class="submenu-icon ml-auto"></span>
+                    </div>
+                </a>
+                <a href="#" class=" list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-center align-items-center">
+                        <span class="fa-solid fa-signal mr-3"></span>
+                        <span class="menu-collapsed">Signals</span>
+                    </div>
+                </a>
+                
+            <!-- admin -->
+            <a href="#" class=" list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-center align-items-center">
+                    <span class="fa-solid fa-futbol mr-3"></span>
+                    <span class="menu-collapsed">Admin</span>
+                </div>
+            </a>
+            </ul>
+            <!-- List Group END-->
+        </div>
+        <!-- sidebar-container END -->
+        <!-- MAIN -->
+        <div class="col py-3">
+            <h1>
+                Boolean
+            </h1>
+            <div class="card">
+                <h4 class="card-header">Prossime classi</h4>
+                <div class="card-body">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="card-header">f.a.q.</h4>
+                <div class="card-body">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="card-header">Todo</h4>
+                <div class="card-body">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="input-group mb-3">
+                        <div class="input-group-text">
+                          <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with checkbox">
+                      </div>
+                      <div class="input-group mb-3">
+                        <div class="input-group-text">
+                          <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with checkbox">
+                      </div>
+                      <div class="input-group mb-3">
+                        <div class="input-group-text">
+                          <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with checkbox">
+                      </div>
+                </div>
+            </div>
+    
+            
+            <div class="card">
+                <h4 class="card-header">Utenti Attivi</h4>
+                <div class="card-body">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            </nav>
+        </div>
+        <!-- Main Col END -->
+    </div>
+    <!-- body-row END -->
+    </main>
 
       
 
