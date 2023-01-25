@@ -55,7 +55,7 @@ body {
 
 /* Closed submenu icon */
 #sidebar-container .list-group .list-group-item[aria-expanded=\"false\"] .submenu-icon::after {
-      content: \" \\f0d7\";
+      content: f0d7;
       font-family: FontAwesome;
       display: inline;
       text-align: right;
@@ -63,7 +63,7 @@ body {
 }
 /* Opened submenu icon */
 #sidebar-container .list-group .list-group-item[aria-expanded=\"true\"] .submenu-icon::after {
-      content: \" \\f0da\";
+      content: f0da;
       font-family: FontAwesome;
       display: inline;
       text-align: right;
@@ -71,11 +71,6 @@ body {
 }
 
 
-/* #sidebar-container{
-    height: calc(100vh - 60px);
-    left: 0;
-    bottom: 0;
-} */
 
 
 main{
@@ -89,4 +84,22 @@ main{
 
 .search_bar {
         flex-grow: 1;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+        .navbar-nav li a {
+                display: none;
+        }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
 }
